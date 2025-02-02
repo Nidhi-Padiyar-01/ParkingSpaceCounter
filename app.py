@@ -66,7 +66,7 @@ while True:
     checkParkingSpace(imgDilate)
 
     cv2.imshow("Image", img)
-    # cv2.imshow("ImageBlur", imgBlur)
-    # cv2.imshow("ImageThres", imgMedian)
+    cv2.imshow("ImageBlur", imgBlur)
+    cv2.imshow("ImageThres", imgMedian)
 
     cv2.waitKey(10)
